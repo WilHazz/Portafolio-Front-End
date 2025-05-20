@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/Portfolio.png">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img 
+          id="toggle-icon" 
+          src="assets/icons/moon.svg" 
+          alt="Cambia modo oscuro" 
+          class="toggle_theme__icon"
+          />
+          <p id="text-theme" class="toggle_theme__text">Dark tema</p>
+        </div>
+      </div>
+       <div id="flags" class="flags">
+          <!-- <div class="flags__item" data-language="es">
+            <img class="flags__img" src="assets/icons/co.svg" alt="">
+          </div>
+          <div class="flags__item" data-language="en">
+            <img class="flags__img" src="assets/icons/gb.svg" alt="">
+          </div> -->
+       </div>
+       
+      <div  id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"> </div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--gree"> </div>
+        <!-- <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"> </div> -->
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"> </div>
+        <div data-color="hsl(0, 94%, 42%)" class="colors__item colors__item--red"> </div>
+      </div> 
+      
+    </header>
+    <main class="main">
+      <section class="colum colum--left">
+        <!--Perfil-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/IMG_ParaCV.png" alt="">
+          </div>
+          <div class="card__header">
+              <h2 class="card__title no-margin">Hanny Wilson Paz Lopez</h2>
+              <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Desarrollador Full-Stack</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-home icon" ></i>
+              <a href="https://www.google.com/maps/place/Popay%C3%A1n,+Cauca/@2.4525218,-76.6268308,10023m/data=!3m1!1e3!4m5!3m4!1s0x8e300311c028d47d:0x880bd67f0987a54e!8m2!3d2.4450888!4d-76.6145325?hl=es">
+                  Colombia
+              </a>
+            </div>  
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon" ></i>
+              <a href="mailto:hwpazz@gmail.com">
+                  hwpazz@gmail.com
+              </a>
+            </div>  
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon" ></i>
+              <a href="Tel: 3147756380">
+                  +57 3147756380
+              </a>
+            </div>  
+            <div class="card__link">
+              <i class="fa-brands fa-instagram"></i>
+              <a class="Card__instgram" href="https://www.instagram.com/wilhazz_dev/?next=%2F">
+                  @wilhazz_dev
+              </a>
+            </div>  
+            <p class="card__text" data-section="profile" data-value="description">
+              Ingeniero en Informática orientado al desarrollo Front-End, con sólidos conocimientos en HTML,CSS, JavaScript y
+              Frameworks modernos como React. Experto en la creación de interfaces web responsivas y accesibles, utilizando
+              herramientas como Tailwind CSS para un diseño limpio y eficiente. Tengo experiencia en el consumo de APIs REST e
+              integración de datos, así como el manejo de bases de datos como Oracle, PostgreSQL, MySQL, lo que me permite trabajar
+              con datos de forma estructurada y eficiente.
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">experiencia</h2>
+          <div class="experience">
+            <img src="./assets/images/DBAEXPERT.PNG" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p
+                class="esperience__time"
+                data-section="experience"
+                data-value="first-job-dates"
+              >
+                Febrero 2024 - Septiembre 2024
+              </p>
+              <h3 
+                  class="experience__job"
+                  data-section="experience"
+                  data-value="first-job-title"
+              >
+                DBA / Ing Datos</h3>
+              <p 
+              class="experience__description"
+              data-section="experience"
+              data-value="first-job-description"
+              >
+              •	Administrar bases de datos como PostgreSQL, Oracle ejecutando scripts para mantener los sistemas ordenados y
+              actualizados. <br>
+              • Participé en procesos ETL utilizando Pentaho. <br>
+              • Diseñé modelos relacionales con Oracle Data Modeler. <br>
+              • Apoyé en la creación de dashboards para toma de decisiones. <br>
+              • Realicé carga y extracción de datos en sistemas como Netsuite.              
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="" alt="" class="experience__image">
+            <div class="experience__info">
+              <p 
+                class="esperience__time"
+                data-section="experience"
+                data-value="first-job-dates"
+              >
+                Abril 2019 - Actualidad
+              </p>
+              <h3 
+                class="experience__job"
+                data-section="experience"
+                data-value="first-job-title"
+                >
+                Aprendizaje Autónomo
+              </h3>
+              <p 
+                class="experience__description"
+                data-section="experience"
+                data-value="first-job-description"
+              >
+              • Consumo e integración de APIs RESTful desde el Front-End para visualización de datos y operaciones CRUD. <br>
+              <br>
+              • Implementé estilos modernos y reutilizables utilizando Tailwind CSS y CSS Modules. <br> <br>
+              • Diseñé y desarrollé una landing page en React aplicando arquitectura de componentes reutilizables, estilos con
+              Tailwind CSS, y diseño responsivo. <br><br>
+              • Aplicación de buenas prácticas en desarrollo Front-End: componentes reutilizables, manejo de estado (Context API o
+              useState/useReducer), y principios de mantenimiento escalable. <br><br>
+              • Uso de Git y GitHub para control de versiones y colaboración en proyectos personales. <br>
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="./assets/images/LogoClaus.png" alt="Logo Claus" class="experience__image">
+            <div class="experience__info">
+              <p 
+                class="esperience__time"
+                data-section="experience"
+                data-value="first-job-dates"
+              >
+                Abril 2015 - Diciembre 2016
+              </p>
+              <h3 
+                class="experience__job"
+                data-section="experience"
+                data-value="first-job-title"
+              >
+                Desarrollador Front-End
+              </h3>
+              <p 
+                 class="experience__description"
+                 data-section="experience"
+                 data-value="first-job-description"
+              >
+
+              •	Implementé interfaz gráfica con JavaScript, HTML y CSS. <br>
+              • Colaboré en el diseño de bases de datos con MySQL. <br>
+              • Elaboración de documento de control de calidad parar documentar los resultados de las pruebas, los errores y los
+              defectos. <br>
+              • Desarrollé scripts de backend en PHP. <br>
+
+              </p>
+            </div>
+          </div>
+        </article>
+            <!--Si desea poner Hobbies en tu Portafolio -->
+      <article class="card card--hobbies">
+        <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="./assets/images/HobbyGym.jpg" alt="">
+          </div>
+          <h3 class="hobbie__title">Gym</h3>
+          <p class="card__text">
+            Me gusta el deporte, especialmente el fisicoculturismo. Además de ayudar a sanar el cuerpo, contribuye a desarrollar
+            disciplina y fortalece tanto física como mentalmente
+      </article> 
+      </section>
+  
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title ">Front end</h2>
+          <!-- <small class="smal no-margin">Años de experiencia</small>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div> -->
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--70" ></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript </p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Angular</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Back end</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Java</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">C#</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Node</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Gestor DB</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">MySQL</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">SqlServer</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">PostgreSQL</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Oracle</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/ClonYotube.PNG" alt="Clon_Youtube" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Html</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#CSS</span>
+            </div>
+            <h2 class="card__title">Clon de YouTube</h2>
+            <p class="card__text">
+              Este proyecto es un clon práctico de YouTube desarrollado con HTML, CSS y JavaScript, creado con el objetivo de
+              practicar y reforzar mis habilidades en desarrollo web.
+            </p>
+            <p class="card__text">
+              El proyecto simula la estructura y diseño básico de la plataforma de YouTube, incluyendo: <br>
+              - Barra de navegación superior <br>
+              
+              - Menú lateral de navegación <br>
+              
+              - Diseño de tarjetas para videos <br>
+              - Modo responsivo
+            </p>
+            <div class="buttons">
+              <a href="https://clon-youtube-js.netlify.app/" class="button button--primary">Demo</a>
+              <a href="https://github.com/WilHazz/Clon-YouTube/tree/master" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/TiendaRopa.PNG" alt="TiendaRopa" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#Bootstrap</span>
+              <span class="project__tag">#Tailwind</span>
+              <span class="project__tag">#Material UI</span>
+            </div>
+            <h2 class="card__title">Carrito de Compras</h2>
+            <p class="card__text">
+              Esta es una aplicación web de carrito de compras desarrollada con React, en la cual se integran diversas tecnologías
+              modernas para gestionar el estado, estilizar componentes y consumir APIs externas.
+            </p>
+            <p class="card__text">
+              El objetivo de esta aplicación fue practicar conceptos clave de React, como el manejo de estado global, consumo de APIs
+              y composición de interfaces reutilizables. La aplicación permite visualizar productos obtenidos desde una API externa y
+              agregarlos al carrito de compras.
+            </p>
+            <div class="buttons">
+              <a href="https://carrito-de-compras-vite-react.netlify.app/" class="button button--primary">Demo</a>
+              <a href="https://github.com/WilHazz/project-carritoOfCompras" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/BuscadorPelis.PNG" alt="TiendaRopa" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Fetch</span>
+            </div>
+            <h2 class="card__title">Buscador de Películas</h2>
+            <p class="card__text">
+              Esta es una aplicación web para buscar películas utilizando la API pública de The Movie Database. El proyecto fue
+              desarrollado con React, `fetch` para consumir la API REST, y CSS puro para los estilos.
+            </p>
+            <p class="card__text">
+              El propósito de esta aplicación es practicar el consumo de APIs externas usando fetch.
+            </p>
+            <div class="buttons">
+              <a href="https://buscador-peliculas-app-vite.netlify.app/" class="button button--primary">Demo</a>
+              <a href="https://github.com/WilHazz/App-buscar-peliculas" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/Clima.PNG" alt="TiendaRopa" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Fetch</span>
+            </div>
+            <h2 class="card__title">APP Del Clima</h2>
+            <p class="card__text">
+              Esta es una aplicación del clima desarrollada con React, que permite consultar el clima actual de cualquier ciudad
+              mediante el consumo de una API gratuita de clima. Utilizando Hooks de React como `useState` y `useEffect` para el
+              manejo del estado y el ciclo de vida de los datos, junto con CSS puro para el diseño visual de la interfaz.
+            </p>
+            <p class="card__text">
+              El propósito principal fue practicar el consumo de APIs en React, el uso de Hooks, y mejorar la experiencia con
+              la creación de interfaces limpias y funcionales.
+            </p>
+            <div class="buttons">
+              <a href="https://aplication-for-clima-in-react.netlify.app/" class="button button--primary">Demo</a>
+              <a href="https://github.com/WilHazz/App_Clima" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/LandingPage.png" alt="TiendaRopa" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#React</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Lucide Material UI</span>
+            </div>
+            <h2 class="card__title">Landing Page - Ropa & Estilo</h2>
+            <p class="card__text">
+              Esta es una landing page desarrollada en React con enfoque moderno con el modo Dark/Light para promocionar productos de ropa.
+              Se ha implementado navegación dinámica con react-router-dom, íconos con Lucide React, y el manejo de estado y
+              efectos se realiza con Hooks de React. La landing incluye secciones como inicio, productos, carrito de compras (ropa deportiva, formal e
+              informal), contacto y más.
+
+            </p>
+            <p class="card__text">
+              Actualmente trabajando en este proyecto.
+            </p>
+            <div class="buttons">
+              <a href="https://buscador-peliculas-app-vite.netlify.app/" class="button button--primary">Demo</a>
+              <a href="" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

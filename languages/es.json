@@ -1,0 +1,22 @@
+{
+    "profile":
+    {
+        "rol": "Desarrollador Full-Stack",
+        "description":"Ingeniero de software con trayectoria a ser FullStack, apasionado por el Front End,     con experiencia en desarrollo con lenguajes como, JavaScript, JAVA, C#. <br />  Me caracterizo por ser responsable en mis actividades y funciones a cumplir,  siguiendo estándares y adaptándome al trabajo en equipo y proyectos nuevos.  Me intereso por investigar nuevas tecnologías o  herramientas frameworks que me permita  ser de utilidad y aprendizaje  para la creación y desarrollo, para aportar soluciones   que ayuden a mejorar los procesos empresariales. "
+    },
+    
+        "experience": 
+        {
+          "first-job-title":"Puesto a desempeñar",
+          "first-job-dates": "Abril 2015 - Diciembre 2015",
+          "first-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint, cupiditate consequatur dignissimos, accusamus, cumque vero cum aliquam quibusdam sit ipsa voluptatem eaque eveniet provident.",
+          "second-job-title":"Puesto a desempeñar",
+          "second-job-dates": "Abril 2015 - Diciembre 2017",
+          "second-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint, cupiditate consequatur dignissimos, accusamus, cumque vero cum aliquam quibusdam sit ipsa voluptatem eaque eveniet provident.",
+          "last-job-title":"Puesto a desempeñar",
+          "last-job-dates": "Abril 2015 - Diciembre 2018",
+          "last-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint, cupiditate consequatur dignissimos, accusamus, cumque vero cum aliquam quibusdam sit ipsa voluptatem eaque eveniet provident."
+          
+        }
+    
+}
